@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+<body>
+    <h1> Anuncios</h1>
+    <p>Cantidad de Anuncios <%=tam%></p>
+    <table>
+        <% for(var i=0; i < tam; i++) { %>
+           <tr>
+             <td><%= anuncios[i].nombre %></td>
+            </tr>
+            <tr>
+            
+                <td>Tipo: <%= anuncios[i].vende %></td>
+              </tr>
+            <tr>
+            
+             <td><%= anuncios[i].descripcion %></td>
+           </tr>
+           <tr>
+            
+            <td>Precio: <%= anuncios[i].precio %></td>
+          </tr>
+        <tr>
+        
+           <tr>
+            <td>------------------</td>
+        </tr>
+        <% } %>
+        </table>
+      
+        </body>
+</html>
