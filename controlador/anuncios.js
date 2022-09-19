@@ -175,8 +175,11 @@ exports.getAnuncios1= async (req,res,next) => {
 
    
 
-   res.status(200).json({sucsess:true, data:anuncio})
-   
+   //res.status(200).json({sucsess:true, data:anuncio})
+   res.render('listar1', {
+    anuncio: anuncio,
+    //tam: anuncios.length
+  });
    
    
 

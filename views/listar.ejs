@@ -11,7 +11,11 @@
     <p>Cantidad de Anuncios <%=tam%></p>
     <table>
         <% for(var i=0; i < tam; i++) { %>
-           <tr>
+            <tr>
+            
+                <td>Tipo: <%= anuncios[i].id %></td>
+              </tr>
+            <tr>
              <td><%= anuncios[i].nombre %></td>
             </tr>
             <tr>
@@ -25,6 +29,18 @@
            <tr>
             
             <td>Precio: <%= anuncios[i].precio %></td>
+          </tr>
+          <tr>
+            
+            <td>Tags: <%= anuncios[i].tags %></td>
+          </tr>
+          <tr>
+            
+            <td>Foto: <%= anuncios[i].foto %></td>
+          </tr>
+          <tr>
+            <% anun= "public/" + anuncios[i].foto %>
+            <td><img src=<%=anun %> </td>
           </tr>
         <tr>
         

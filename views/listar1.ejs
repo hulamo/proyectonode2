@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+<body>
+    <h1> Anuncio</h1>
+    
+    <table>
+   
+          <tr>
+          
+              <td>Tipo: <%= anuncio.id %></td>
+            </tr>
+          <tr>
+           <td><%= anuncio.nombre %></td>
+          </tr>
+          <tr>
+          
+              <td>Tipo: <%= anuncio.vende %></td>
+            </tr>
+          <tr>
+          
+           <td><%= anuncio.descripcion %></td>
+         </tr>
+         <tr>
+          
+          <td>Precio: <%= anuncio.precio %></td>
+        </tr>
+        <tr>
+          
+          <td>Tags: <%= anuncio.tags %></td>
+        </tr>
+        <tr>
+          
+          <td>Foto: <%= anuncio.foto %></td>
+        </tr>
+        <tr>
+          <% anun2= "../public/" + anuncio.foto %>
+          <td><img src=<%=anun2 %> </td>
+        </tr>
+      <tr>
+      
+         <tr>
+          <td>------------------</td>
+      </tr>
+
+      </table>
+  
+        </body>
+</html>
