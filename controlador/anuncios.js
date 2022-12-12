@@ -8,8 +8,10 @@ const removeFields=["limit","page"]
 
 
 
+
 // Esta funcion es del tipo GET para listar todos anuncios.
 // @access: public
+
 
 
 

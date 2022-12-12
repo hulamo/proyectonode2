@@ -1,5 +1,13 @@
 Anuncios:
 
+***********
+
+LA PRÁCTICA NO ESTÁ COMPLETA, SOLO PUDE AGREGAR LA AUTENTIFICACION CON JWT. ESTARÉ TRABAJANDO EN ELLA EN LOS SIGUIENTES DÍAS.
+
+***********
+
+
+
 Nombre del artículo
 Si el artículo se vende o se busca
 Precio

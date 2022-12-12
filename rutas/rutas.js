@@ -4,6 +4,7 @@ const { getAnuncios, getAnuncios1,getAnuncios2,getAnuncios3,createAnuncios,getTa
 
 const router=express.Router();
 
+
 router.route("/listar").get(getAnuncios)
 
 router.route("/crear").post(createAnuncios)
